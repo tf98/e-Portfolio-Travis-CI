@@ -24,7 +24,7 @@ After the build is finished you should see that your build has passed.
 
 ### 3. Alter a method to fail a test (and after the build failed revert it)
 To see what happens when your build fails alter a method to fail the tests. For example in the Calculator.multiply() method subtract 1 from the result so its always off by 1.
-``` 
+```java 
 public int multiply(int a, int b) {
 return (a*b)-1;
 }
