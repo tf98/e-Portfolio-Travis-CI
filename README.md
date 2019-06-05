@@ -4,6 +4,9 @@ In this repository you can find my presentation about Travis, a tutorial/introdu
 ## Pre-requirements:
 Clone this repository and host it on Github: [Travis Demo](https://github.com/tf98/TravisDemo)
 
-Sign in to [Travis](www.travis-ci.org) with your Github account. Then you have to select your repository witch you want use with Travis and install Travis for it on Github.
+Sign in to [Travis](www.travis-ci.org) with your Github account. 
+Click on your profile in the top right corner and then select the repository you want to use. 
+Then you have to select your repository witch you want use with Travis and install Travis for it on Github.
+![](imagages/Add_repo_travis.PNG)
 
 Also if you want to integrate Coveralls like we will do in the end you have to sign up on [Coveralls](www.coveralls.io) with your Github account too and select your repository under “add repos”.
