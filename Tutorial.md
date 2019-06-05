@@ -60,7 +60,7 @@ On Coveralls.io go to your repository then to settings and set the option "COVER
 
 ### 7. Add a new Method without tests on a new branch
 We will now add the functionality to subtract to our Calculator. Create a new branch, name it "subtract" and add a subtract method to the Calculator class.
-```
+```java
 public void int subtract(int a, int b) {
   return a-b;
 }
@@ -74,7 +74,7 @@ Create a pull request for the subtract branch to merge it into the master branch
 
 ### 9. Add a test to pass the build
 Add a test method to the CalculatorTest class.
-```
+```java
 @Test
 public void subtractZeroShouldNotChangeResult() {
 Calculator tester = new Calculator();
