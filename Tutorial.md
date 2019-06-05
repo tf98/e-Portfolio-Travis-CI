@@ -32,7 +32,7 @@ To automatically trigger a coveralls build on pull requests you have to set up c
         </configuration>
 </plugin>
 ```
-To get your own token go to Coveralls.io select your repository and copy yor token from there.
+To get your own token go to Coveralls.io select your repository and copy your token from there.
 We have to then tell Travis that it should run the tests with a Maven command and report the results to Coveralls. We do that we by adding the following to our .travis.yml:
 ```
 after_success:
