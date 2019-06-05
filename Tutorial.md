@@ -31,6 +31,7 @@ public int multiply(int a, int b) {
 ```
 If you push and commit you should see your build failing.
 ![Build failed](https://github.com/tf98/e-Portfolio-Travis-CI/blob/master/images/build_failed.PNG)
+After this revert the changes so the next build passes.
 
 ### 4. Add a badge to your readme
 You can show your build status with a badge in your readme so that people see that your using a CI tool. Go to your project on Travis-ci.org and click on the badge icon at the top and copy the code from there in to your readme in your git repository.
